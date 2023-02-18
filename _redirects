@@ -1,0 +1,8 @@
+# Redirects from what the browser requests to what we serve
+/			/lojas.html
+/index.html		/
+/lojas		  	/lojas.html
+/lojas-inferiores	/lojas-inferiores.html
+/bens-de-consumo	/bens-de-consumo.html
+/lista-de-desejos	/lista-de-desejos.html
+

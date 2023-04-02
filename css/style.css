@@ -1,0 +1,41 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, .9);
+}
+
+.position-relative:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.text a {
+  text-decoration: none;
+}
+
+.text>a:hover {
+  text-decoration: underline;
+}
+
+.card-img-overlay {
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.card-img-overlay:hover {
+  opacity: 1;
+}
